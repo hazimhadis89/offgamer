@@ -15,3 +15,8 @@ SELECT COUNT(DISTINCT orders.id) AS number_of_order,
 SUM(IF(`type` = 'Normal',`normal_price`,`promotion_price`)) AS total_sales_amount
 FROM order_product
 LEFT JOIN orders ON order_product.order_id = orders.id;
+```
+
+## Improvement Plan
+- using Laravel framework instead of rewrite my own structure
+- using sqlite for database
