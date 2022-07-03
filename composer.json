@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": "^7.4",
+        "nesbot/carbon": "^2.58.0",
+        "ext-pdo": "*",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
