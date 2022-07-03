@@ -3,8 +3,8 @@
 This repo is the answer for **Question 1**.
 - composer is **required**
 - php: `7.4`
-- `dump` & `schema` in mysql folder
-- `flowchart` in flowchart folder
+- `dump` & `schema` in `extra\mysql` folder
+- `flowchart` in `extra\flowchart` folder
 - Reward functions at `app\Models\Reward.php`
 - example use case at `main.php`
 
